@@ -47,7 +47,7 @@ export default function App() {
           </div>
           <div style={{ display:'flex', gap:10, alignItems:'center' }}>
             <div style={S.liveDot}>Live rates</div>
-            <div style={S.tag}>Agent Demo · April 23</div>
+            <div style={S.tag}>PayBridge Demo · April 14</div>
           </div>
         </header>
 
@@ -68,7 +68,7 @@ export default function App() {
                 <div style={S.agentName}>PayBridge AI Assistant</div>
                 <div style={S.agentStatus}>
                   <span style={S.statusDot} />
-                  Online · powered by Claude
+                  Online · powered by Venkat
                 </div>
               </div>
             </div>
