@@ -5,7 +5,7 @@ import axios from 'axios';
 const api = axios.create({
   baseURL: "https://paybridge-ntwu.onrender.com/api"
 });
-console.log("API URL:", api.defaults.baseURL);
+//console.log("API URL:", api.defaults.baseURL);
 
 // ── FX ────────────────────────────────────────────────────────────────────
 export const fetchRate = (from = 'USD', to = 'INR') =>
